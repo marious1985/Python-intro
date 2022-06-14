@@ -6,3 +6,4 @@ print (a)
 print (b)
 print (c)
 
+# ejemplo de varialbes con string en lenguaje  de tipado dinamido y fuerte
