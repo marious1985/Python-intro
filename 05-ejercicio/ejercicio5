@@ -1,11 +1,14 @@
-def a_triangulo (altura, base):
-    return base * altura / 2
-
-def a_circulo (radio):
-    return radio * 3.14 * 2
+import math
 
 
-print(a_triangulo(2, 3))
-print(a_circulo(3))
+def a_triangulo (altura: float, base: float) -> float:
+    return ((base*altura)/2)
+
+def a_circulo (radio: float) -> float:
+    return (math.pi*(radio**2))
+
+
+print("Area de triangulo:",  a_triangulo(2, 3))
+print("Area de circulo:", a_circulo(3))
 
 
