@@ -1,0 +1,11 @@
+def a_triangulo (altura, base):
+    return base * altura / 2
+
+def a_circulo (radio):
+    return radio * 3.14 * 2
+
+
+print(a_triangulo(2, 3))
+print(a_circulo(3))
+
+
